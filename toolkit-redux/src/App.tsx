@@ -1,12 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+import logo from './logo.svg';
+
+import Counter from './counter/Counter';
+import { PokemonApp } from './pokemon/PokemonApp';
+
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+
+        {/* <Counter /> */}
+        <PokemonApp />
+
       </header>
     </div>
   );
